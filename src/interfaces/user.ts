@@ -25,20 +25,3 @@ export interface ResponseUser {
   incomplete_results: boolean;
   items: User[];
 }
-
-export interface UserDetail extends User {
-  name: string;
-  company: string | null;
-  blog: string;
-  location: string | null;
-  email: string | null;
-  hireable: string | null;
-  bio: string;
-  twitter_username: string;
-  public_repos: number;
-  public_gists: number;
-  followers: number;
-  following: number;
-  created_at: Date;
-  updated_at: Date;
-}
